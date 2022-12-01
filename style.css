@@ -90,6 +90,11 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
 }
 
 
@@ -139,20 +144,59 @@ table {
 
 /* AFTER CSS RESET */
 
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
 }
 
 .leftside {
-    background-image: url(img/fungi.jpg);
+    background-image: url("img/fungi.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    width: 50vw;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 0.3);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 5em;
+}
+
+.credit {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .rightside {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
