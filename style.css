@@ -146,6 +146,7 @@ table {
 
 body {
     font-family: 'Rajdhani', sans-serif;
+    background-color: whitesmoke;
 }
 
 .container {
@@ -166,7 +167,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 500px;
-    width: 50vw;
+    width: 30vw;
 }
 
 .logo {
@@ -180,7 +181,7 @@ body {
 
 img {
     height: 200px;
-    width: 200px;
+    width: 150px;
 }
 
 h1 {
@@ -198,5 +199,71 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width: 70vw;
+}
+
+.text {
+    font-size: 2em;
+    margin: 0 500px 30px 30px;
+}
+
+form {
+    padding: 20px 100% 20px 30px;
+    background-color: white;
+    box-shadow: 18px 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+legend {
+    font-size: 1.1em;
+}
+
+label {
+    font-size: 10px;
+    margin: 10px 0 5px 0;
+}
+
+input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 6px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+}
+
+input:focus {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+section {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+button {
+    background-color: #596D48;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 20px 30px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.log {
+    color: #596D48;
+}
+
+.acc {
+    margin-left: 30px;
 }

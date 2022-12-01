@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,34 +28,52 @@
 
         <!-- RIGHT SIDE CONTENT -->
         <div class="rightside">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to.</p>
-            <h1>Let's do this!</h1>
+            <p class="text">This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up now to get started.</p>
+            <p>&nbsp;</p>
+            <p class="text">You know you want to.</p>
 
             <!-- FORM -->
             <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="get">
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" name="first" id="first_name">
+                <legend>Let's do this!</legend>
 
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last" id="last_name">
+                <section>
+                    <div class="left">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first" id="first_name">
+                    </div>
+                    <div class="left">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last" id="last_name">
+                    </div>
+                </section>
 
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
+                <section>
+                    <div class="left">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
-                <label for="number">PHONE NUMBER</label>
-                <input type="phone" name="number" id="number">
+                    <div class="left">
+                        <label for="number">PHONE NUMBER</label>
+                        <input type="phone" name="number" id="number">
+                    </div>
+                </section>
 
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-
-                <label for="copassword">CONFRIM PASSWORD</label>
-                <input type="password" name="copassword" id="copassword">
+                <section>
+                    <div class="left">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="left">
+                        <label for="copassword">CONFRIM PASSWORD</label>
+                        <input type="password" name="copassword" id="copassword">
+                    </div>
+                </section>
             </form>
 
             <!-- UNDER FORM  -->
             <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
+            <p class="acc">Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="log">Log in</a></p>
         </div>
 
     </div>
